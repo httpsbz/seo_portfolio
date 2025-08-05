@@ -10,9 +10,16 @@ export const EXPERIENCES = [
   {
     year: "2025",
     role: "Full Stack Developer",
-    company: "Colegio de San Juan de Letran Calamba - FMGSD",
+    company: "Colegio de San Juan de Letran | Facilities Management and General Services Division",
     description: `As part of my on-the-job training, I contributed to the development of the EHS Self-Paced Learning System, an internal platform designed to support environmental health and safety education. My role involved assisting with system interface design, organizing digital content, and collaborating with the team to improve user experience for both administrators and clients.`,
     technologies: ["HTML", "PHP", "Tailwindcss", "MySQL"],
+  },
+  {
+    year: "2019",
+    role: "Work Immersion",
+    company: "Yazaki Torres Mnfc. Inc.",
+    description: "During my work immersion, I was responsible for managing fingerprint-based attendance systems, ensuring accurate employee time records and troubleshooting device issues as needed. I also handled various administrative tasks, including organizing and processing paperwork related to employee records and attendance reports. Additionally, I was given tasks involving basic C++ programming, which included modifying simple code snippets and assisting in debugging small-scale software modules. This experience allowed me to develop practical skills in technical support, documentation handling, and applying foundational programming knowledge in a real-world environment.",
+    technologies: ["Biometric Attendance Systems", "Microsoft Office Suite", "C++", "Windows OS", "Local Network Systems"],
   }
 ];
 
