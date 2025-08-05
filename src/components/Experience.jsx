@@ -7,8 +7,8 @@ const slideDown = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 1.2,
-      ease: "easeInOut",
+      duration: 0.5,
+      ease: "easeOut",
     },
   },
 };
@@ -19,8 +19,8 @@ const slideRight = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 1.2,
-      ease: "easeInOut",
+      duration: 0.5,
+      ease: "easeOut",
     },
   },
 };
@@ -31,8 +31,8 @@ const slideLeft = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 1.2,
-      ease: "easeInOut",
+      duration: 0.5,
+      ease: "easeOut",
     },
   },
 };
