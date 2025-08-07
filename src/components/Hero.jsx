@@ -9,7 +9,6 @@ const container = (direction = -100) => ({
 });
 
 const Hero = () => {
-  // Refs for all animated sections
   const titleRef = useRef(null);
   const subtitleRef = useRef(null);
   const paraRef = useRef(null);
@@ -25,7 +24,7 @@ const Hero = () => {
   const mobileButtonInView = useInView(mobileButtonRef, { threshold: 0.5 });
 
   return (
-    <div className="pb-4 lg:mb-35 px-6 lg:px-20">
+    <div className="pb-24 lg:pb-20 lg:mb-35 px-6 lg:px-20">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start lg:pl-48">
@@ -47,7 +46,7 @@ const Hero = () => {
               animate={subtitleInView ? "visible" : "hidden"}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-300 bg-clip-text text-transparent text-4xl tracking-tight"
             >
-              Aspiring Software Developer
+              Junior Web Developer
             </motion.span>
 
             <motion.p
